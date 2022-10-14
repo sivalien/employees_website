@@ -1,0 +1,24 @@
+.card-container:hover {
+    transform: scale(1.1);
+}
+
+.image-container {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.card-container {
+    overflow: hidden;
+    box-shadow: 0 2px 20px #e1e5ee;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: auto;
+  }
